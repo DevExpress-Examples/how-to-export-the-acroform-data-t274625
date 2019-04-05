@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/ExportFormData/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/ExportFormData/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/ExportFormData/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/ExportFormData/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/ExportFormData/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ExportFormData/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to export the AcroForm data 
 
