@@ -7,18 +7,18 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [MainWindow.xaml](./CS/ImportFormData/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/ImportFormData/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/ImportFormData/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ImportFormData/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/ExportFormData/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/ExportFormData/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/ExportFormData/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ExportFormData/MainWindow.xaml.vb))
 <!-- default file list end -->
-# How to import the AcroForm data
+# How to export the AcroForm data 
 
 
-This example demonstrates how you can import the AcroForm data  (interactive forms) either from XML or FDF format  to a PDF document.
+<p>This example shows how a PDF document with the AcroForm data (interactive forms) can be exported either to the XML or FDF format.<br /><br /></p>
 
 
 <h3>Description</h3>
 
-For this, do the following.<br />Load a document with interactive forms (e.g., from a file path)&nbsp;to which the data will be imported,&nbsp;into the PDF Viewer&nbsp;using the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfDocumentViewerDocumentViewerControl_OpenDocumenttopic">DocumentViewerControl.OpenDocument</a> method.<br /><br />To import the&nbsp;AcroForm data either from the XML or FDF format: call the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_ImportFormDatatopic">PdfViewerControl.ImportFormData&nbsp;</a>&nbsp;method after the document is loaded in the&nbsp;<a href="https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_DocumentLoadedtopic">PdfViewerControl.DocumentLoaded </a> event handler.<br />The import method invokes the <strong>Open</strong> dialog window, where you can specify&nbsp;the file name and file format (XML or FDF) from which a PDF document with interactive form is loaded.<br /><br />To&nbsp;save&nbsp;the imported document,&nbsp;(e.g., to a file),&nbsp;call the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_SaveDocumenttopic">PdfViewerControl.SaveDocument </a>method with a specified file name, including a file path where the imported document&nbsp;will be&nbsp;located.
+To export a document to the XML or FDF format, call the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_ExportFormDatatopic">PdfViewerControl.ExportFormData </a>method in the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_DocumentLoadedtopic">PdfViewerControl.DocumentLoaded </a>event handler. <br><br>This method invokes the Save As dialog window, where you can specify a desired file format (XML or FDF) and the file name to export a document with interactive forms.
 
 <br/>
 
@@ -26,7 +26,7 @@ For this, do the following.<br />Load a document with interactive forms (e.g., f
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
-[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-import-the-acroform-data-t274735&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-import-the-acroform-data-t274735&~~~was_helpful=no)
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-export-the-acroform-data-t274625&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=how-to-export-the-acroform-data-t274625&~~~was_helpful=no)
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
