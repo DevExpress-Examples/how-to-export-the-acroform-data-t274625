@@ -9,9 +9,6 @@
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="DataForm.fdf" />
-  </ItemGroup>
-  <ItemGroup>
     <Import Include="System.Drawing" />
     <Import Include="System.Windows.Forms" />
     <Import Include="System.Windows.Controls" />
