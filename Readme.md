@@ -9,6 +9,8 @@
 
 This example imports an XML/FDF file data to PDF document AcroForm (interactive forms) and exports form values to the XML or FDF format.
 
+![image](https://github.com/user-attachments/assets/7ed5fbc5-6d26-4909-866e-b9e064bf7710)
+
 ## Import AcroForm Data
 Call the [PdfViewerControl.ImportExportFormData](https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_ImportExportFormDatatopic) method after the document is loaded to import the AcroForm data either from the XML or FDF format.
 
