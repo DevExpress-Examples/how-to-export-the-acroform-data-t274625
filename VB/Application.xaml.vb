@@ -6,7 +6,7 @@ Imports System.Linq
 Imports System.Threading.Tasks
 Imports System.Windows
 
-Namespace ImportFormData
+Namespace ImportExportFormData
     ''' <summary>
     ''' Interaction logic for App.xaml
     ''' </summary>

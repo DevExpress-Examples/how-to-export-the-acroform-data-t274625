@@ -4,24 +4,27 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
+
+# WPF PDF Viewer - Import/Export the AcroForm Data 
+
+This example imports an XML/FDF file data to PDF document AcroForm (interactive forms) and exports form values to the XML or FDF format.
+
+## Import AcroForm Data
+Call the [PdfViewerControl.ImportExportFormData](https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_ImportExportFormDatatopic) method after the document is loaded to import the AcroForm data either from the XML or FDF format.
+
+## Export AcroForm Data
+Call the [PdfViewerControl.ExportFormData](https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_ExportFormDatatopic) method in the [PdfViewerControl.DocumentLoaded](https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_DocumentLoadedtopic) event handler to export a document to the XML or FDF format. This method invokes the Save As dialog window, where you can specify a desired file format (XML or FDF) and the file name to export a document with interactive forms.
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At
 
-* [MainWindow.xaml](./CS/ExportFormData/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/ExportFormData/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/ExportFormData/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/ExportFormData/MainWindow.xaml.vb))
+* [MainWindow.xaml](./CS/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/MainWindow.xaml.vb))
 <!-- default file list end -->
-# How to export the AcroForm data 
 
+## Documentation
 
-<p>This example shows how a PDF document with the AcroForm data (interactive forms) can be exported either to the XML or FDF format.<br /><br /></p>
-
-
-<h3>Description</h3>
-
-To export a document to the XML or FDF format, call the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_ExportFormDatatopic">PdfViewerControl.ExportFormData </a>method in the <a href="https://documentation.devexpress.com/#WPF/DevExpressXpfPdfViewerPdfViewerControl_DocumentLoadedtopic">PdfViewerControl.DocumentLoaded </a>event handler. <br><br>This method invokes the Save As dialog window, where you can specify a desired file format (XML or FDF) and the file name to export a document with interactive forms.
-
-<br/>
-
+- [PdfViewerControl.GetText(PdfDocumentArea)](https://docs.devexpress.com/WPF/DevExpress.Xpf.PdfViewer.PdfViewerControl.GetText(DevExpress.Pdf.PdfDocumentArea))
 
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?

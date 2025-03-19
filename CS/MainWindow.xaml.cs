@@ -1,17 +1,20 @@
-﻿using DevExpress.Xpf.PdfViewer;
+﻿using DevExpress.Pdf;
+using DevExpress.Xpf.PdfViewer;
 using System.Windows;
 
-namespace ImportFormData {
+namespace ImportExportFormData {
 
-    public partial class MainWindow : Window {
+    public partial class MainWindow : DevExpress.Xpf.Core.ThemedWindow
+    {
         public MainWindow() {
             InitializeComponent();
-            Viewer.OpenDocument("..\\..\\FormFillDemo.pdf");
+            Viewer.OpenDocument("FormFillDemo.pdf");
         }
 
         private void Viewer_DocumentLoaded(object sender, RoutedEventArgs e) {
-            Viewer.ImportFormData();
-            Viewer.SaveDocument("..\\..\\ImportedDocument.pdf");
+            //Viewer.ImportFormData();
+            Viewer.Import("FormFillDemo.fdf");
+            Viewer.SaveDocument("ImportedDocument.pdf");
         }
 
         private void Viewer_DocumentClosing(DependencyObject d, DocumentClosingEventArgs e) {

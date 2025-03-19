@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fields>
+  <field p2:original="generateAppearances" name="generateAppearances" xmlns:p2="http://ns.adobe.com/xfdf-transition/"></field>
+  <field p2:original="LastName" name="LastName" xmlns:p2="http://ns.adobe.com/xfdf-transition/">Smith</field>
+  <field p2:original="FirstName" name="FirstName" xmlns:p2="http://ns.adobe.com/xfdf-transition/">John </field>
+  <field p2:original="Country" name="Country" xmlns:p2="http://ns.adobe.com/xfdf-transition/">United States</field>
+  <field p2:original="City" name="City" xmlns:p2="http://ns.adobe.com/xfdf-transition/">LA</field>
+  <field p2:original="Gender" name="Gender" xmlns:p2="http://ns.adobe.com/xfdf-transition/">Male</field>
+  <field p2:original="Address" name="Address" xmlns:p2="http://ns.adobe.com/xfdf-transition/">1325 Prospect Dr</field>
+</fields>
