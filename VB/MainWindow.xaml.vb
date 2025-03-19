@@ -1,19 +1,20 @@
-Imports DevExpress.Xpf.PdfViewer
-Imports System.Windows
+﻿Imports DevExpress.Xpf.PdfViewer
+Imports DevExpress.Pdf
 
-Namespace ImportFormData
+Namespace ImportExportFormData
 
-    Public Partial Class MainWindow
+    Partial Public Class MainWindow
         Inherits Window
 
         Public Sub New()
-            Me.InitializeComponent()
-            Me.Viewer.OpenDocument("..\..\FormFillDemo.pdf")
+            InitializeComponent()
+            Viewer.OpenDocument("FormFillDemo.pdf")
         End Sub
 
         Private Sub Viewer_DocumentLoaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
-            Me.Viewer.ImportFormData()
-            Me.Viewer.SaveDocument("..\..\ImportedDocument.pdf")
+            'Viewer.ImportExportFormData()
+            Viewer.Import("DataForm.fdf")
+            Viewer.SaveDocument("ImportedDocument.pdf")
         End Sub
 
         Private Sub Viewer_DocumentClosing(ByVal d As DependencyObject, ByVal e As DocumentClosingEventArgs)
